@@ -823,7 +823,7 @@ Material,
 Material,
     Wall Insulation,         !- Name
     MediumRough,             !- Roughness
-    0.200,                    !- Thickness {m}
+    0.05,                    !- Thickness {m}
     0.05,                    !- Conductivity {W/m-K}
     154,                     !- Density {kg/m3}
     940,                     !- Specific Heat {J/kg-K}
