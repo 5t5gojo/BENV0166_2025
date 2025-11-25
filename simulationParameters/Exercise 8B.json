@@ -10,17 +10,17 @@
     },
 
     "width": {
-        "type" : "int",
-        "values" : [5, 10]
+        "type" : "constant",
+        "values" : [8]
     },
 
     "height": {
-        "type" : "float",
+        "type" : "int",
         "values" : [3, 4]
     },
 
     "u_windows": {
-        "type" : "int",
+        "type" : "float",
         "values" : [1.0, 6.0]
     },
 
@@ -31,54 +31,32 @@
 
     "wwr" : {
         "type" : "float",
-        "values" : [0.01, 0.99]
+        "values" : [0.15, 0.8]
     },
 
     "ach_50" : {
         "type" : "float",
-        "values" : [1, 10]
+        "values" : [5]
     },
 
     "ventilationRate" : {
-        "type" : "categorical",
-        "values" : [
-            0.0,
-            0.010,
-            0.020
-        ]
+        "type" : "constant",
+        "values" : [0.010]
     },
 
     "slabInsulationThickness" : {
-        "type" : "categorical",
-        "values" : [
-            0.0001,
-            0.025,
-            0.050,
-            0.075,
-            0.100
-        ]
+        "type" : "constant",
+        "values" : [0.100]
     },
 
     "wallInsulationThickness" : {
-        "type" : "categorical",
-        "values" : [
-            0.0001,
-            0.025,
-            0.050,
-            0.075,
-            0.100
-        ]
+        "type" : "constant",
+        "values" : [0.100]
     },
 
     "roofInsulationThickness" : {
-        "type" : "categorical",
-        "values" : [
-            0.0001,
-            0.025,
-            0.050,
-            0.075,
-            0.100
-        ]
+        "type" : "constant",
+        "values" : [0.100]
     },
 
     "fixedShadingDepth" : {

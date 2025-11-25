@@ -10,17 +10,17 @@
     },
 
     "width": {
-        "type" : "int",
-        "values" : [5, 10]
+        "type" : "constant",
+        "values" : [8]
     },
 
     "height": {
-        "type" : "float",
+        "type" : "int",
         "values" : [3, 4]
     },
 
     "u_windows": {
-        "type" : "int",
+        "type" : "float",
         "values" : [1.0, 6.0]
     },
 
@@ -31,7 +31,7 @@
 
     "wwr" : {
         "type" : "float",
-        "values" : [0.01, 0.99]
+        "values" : [0.1, 0.9]
     },
 
     "ach_50" : {
